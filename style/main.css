@@ -13,7 +13,7 @@
 /* corpo do site*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
    
 }
@@ -68,9 +68,58 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
 .titulo{
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Definir botoes */
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    /*definir border */
+    border: none;
+    /* definir color*/
+    color: white;
+    /* definir espaçamento interno */
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    /* laterar curso do mouse */
+    cursor: pointer;
+    /* controlar animação */
+    transition: .3s ease all;
+
+}
+
+/* alterar cor dos botões*/
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+/* definir icone*/
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 8px;
 }
